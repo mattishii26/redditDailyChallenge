@@ -1,0 +1,19 @@
+/*
+ write a program that will print the song "99 bottles of beer on the wall".
+ for extra credit, do not allow the program to print each loop on a new line.
+ */
+#include <iostream>
+
+using namespace std;
+
+int main(){
+   for(int i = 99; i > 0; i--){
+      cout << i << " bottles of beer on the wall. ";
+      cout << i << " bottles of beer." << endl;
+      cout << "Take one around, pass it around. " << i <<
+         " bottles of beer on the wall";
+      
+   }
+   cout << "No more bottles of beer on the wall, no more bottles of beer. "
+    << "Go to the store and buy some more, 99 bottles of beer on the wall";
+}
